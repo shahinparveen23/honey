@@ -1,0 +1,16 @@
+@media screen and (max-width: 1410px){
+    .collection-card{
+        
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    .Honeybees .imagearea{
+        width: 530px;
+    }
+    .Honeybees .textarea{
+        width: 300px;
+    }
+}

@@ -1,0 +1,635 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*
+font-family: "Poppins", sans-serif;
+font-family: "Open Sans", sans-serif;
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: #000000;
+    font:400 20px/1.5 "Poppins", sans-serif;
+}
+
+h1{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+h2, h3, h4{
+    font-family: "Open Sans", sans-serif;
+}
+
+h2{
+    color: #000;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+h2 span{
+    font-size: 30px;
+    color: #b1824a;
+    text-align: center;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000;
+}
+
+img{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.df{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+.df{
+    display: flex;
+}
+
+.btn:hover{
+    color: #ffffff;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.btn{
+    transition: .4s;
+}
+
+/*=======================*/
+
+.pageHeader{
+    min-height: 1250px;
+    width: 100%;
+    background: url(../images/banner.png) no-repeat 100% 50% #ffffff;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    width: 98%;
+    max-width: 1720px;
+    margin: auto;
+}
+
+.bannerarea{
+    width: 1720px;
+    margin: auto;
+}
+
+.logo{
+    margin-top: 30px;
+}
+
+.pageHeader .mainNav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainNav ul li{
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.mainNav ul li a{
+    color:#ffffff;
+    line-height: 50px;
+    padding-top: 30px;
+    display: block;
+}
+
+.mainNav ul li a:hover{
+    border-bottom: solid 2px #a36209;
+    color: #000000;
+}
+
+.textarea h1{
+    position: absolute;
+    top: 468px;
+    left: 100px;
+    width: 590px;
+    font-size: 72px;
+    line-height: 77px;
+    color: #fff;
+}
+
+.textarea p{
+    position: absolute;
+    top: 800px;
+    left: 100px;
+    width: 660px;
+    color: #fff;
+}  
+
+.btnarea{
+    position: absolute;
+    top: 940px;
+    gap: 60px;
+}
+
+.btn{
+    display: inline-block;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 100px;
+    padding: 15px 35px;
+    transition: .5s;
+}
+
+.btn:hover{
+    color: #ffffff;
+    background-color: #b1824a;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.btnarea .introbtn{
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 100px;
+    padding: 15px 35px;
+    margin-left: 40px;
+}
+
+.btnarea img{
+    position: absolute;
+    top: 17px;
+    left: 235px;
+
+}
+
+.collection{
+    position: absolute;
+    top: 1100px;
+    left: 187px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+}
+
+.collection-card li{
+    width: 500px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.collection h2{
+    font-size: 36px;
+    text-align: center;
+}
+
+
+.collection p{
+    color: #777;
+    width: 450px;
+    padding: 20px 38px;
+}
+
+.collection-card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   grid-gap: 10px;
+}
+
+.collection-card .btn{
+    margin-left: 160px;
+}
+
+.collection-card img{
+    padding: 0 35%;
+}
+
+.Honeybees{
+    position: relative;
+    height: 1330px;
+    padding: 0 174px;
+}
+
+.Honeybees .container{
+    padding: 125px 0 100px;
+    position: relative;
+}
+
+.Honeybees .imagearea{
+    width: 730px;
+    position: relative;
+    top: 500px;
+    float: left;
+}
+
+.imagearea{
+    width: 100%;
+}
+
+.Honeybees .textarea{
+    position: relative;
+    top: 350px;
+    width: 698px;
+    box-sizing: border-box;
+    float: right;
+}
+
+.Honeybees h2{
+    text-align: left;
+}
+
+.Honeybees .textarea p{
+    padding: 10px 0;
+    color: #464545;
+    position: relative;
+    top: 100px;
+    left: 0;
+    line-height: 30px;
+    width: 695px;
+    text-align: left;
+}
+
+.content-list{
+    padding: 100px 0;
+}
+
+.menu-item, .Friendly, .population {
+    display: flex;
+    align-items: center;
+
+}
+  
+.icon{
+    margin-right: 50px;
+    margin-top: 30px;
+}
+  
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.services{
+    position: relative;
+    padding: 100px 174px;
+}
+
+.services h2 span{
+    font-size: 30px;
+    color: #b1824a;
+    text-align: center;
+}
+
+.services h2{
+    font-size: 48px;
+}
+
+.services p{
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+
+.services .services-list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 175px;
+}
+
+.services .services-list ul{
+    padding-bottom: 50px;
+}
+
+.services .services-list li p{
+    text-align: left;
+    width: 400px;
+    padding: 20px 0;
+}
+
+.services .services-list li h3{
+    text-align: center;
+}
+
+.services .services-list.btn{
+    background-color: #a36209;
+    color: #fff;
+    padding: 15px 30px;
+}
+
+.services ul li .btnpanel{
+    padding: 20px 25%;
+}
+
+
+.lgBox{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    display: none;
+}
+
+.close{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border: solid 1px #fff;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.close:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.lgContent{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.product .bannerarea{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product{
+    position: relative;
+    padding : 100px 0;
+}
+
+.product .imagearea{
+    position: relative;
+}
+
+.product .textarea{
+    position: absolute;
+    top: 540px;
+    left: 50px;
+    width: 410px;
+}
+
+.product .textarea h3{
+    color: #fff;
+    width: 350px;
+    font-size: 48px;
+}
+
+.product .textarea p{
+    font-size: 24px;
+    top: 250px;
+    left: 0;
+    width: 400px;
+}
+
+.product .btnpanel{
+    margin-top: 130px;
+}
+
+.productarea{
+    width: 800px;
+    position: relative;
+    top: 0;
+    box-sizing: border-box;
+    float: right;
+}
+
+.productarea h2{
+    font-size: 45px;
+    padding: 50px 0;
+    text-align: left
+}
+
+.productarea p{
+    font-weight: 200;
+    width: 688px;
+}
+
+.productarea .product{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.product-item i{
+    font-size: 24px;
+    color: #b1824a;
+    padding: 5px 0;
+}
+
+.product-item i span{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #000;
+    font-weight: 300;
+}
+
+.product-item h4{
+    padding: 20px 0;
+}
+
+
+.chooseImg{
+    text-align: right;
+}
+
+.chooseImg img{
+    display: inline;
+}
+
+.choose .container{
+    position: relative;
+}
+
+.chooseBox{
+    width: 775px;
+    box-sizing: border-box;
+    padding: 35px;
+    position: absolute;
+    top: 270px;
+    left: 87px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
+.chooseBox h2{
+    font-size: 36px;
+    line-height: 40px;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.chooseBox h2 span{
+    color: #b1824a;
+    display: block;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.choose-list{
+    margin-top: 0px;
+    padding-top: 25px;
+}
+
+.choose-list li{
+    list-style-type: none;
+    background: url(../images/bee-icon.png) no-repeat 0 50%;
+    padding-left: 65px;
+    margin-bottom: 15px;  
+}
+
+.choose-list li p{
+    color: #8e8b8b;
+    font-size: 16px;
+}
+
+.choose-list li h3{
+    font-size: 26px;
+}
+
+.testimonials{
+    height: 1000px;
+    background: url(../images/map.png) no-repeat 50% 50% #fff;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.testimonials h2{
+    color: #000;
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 50px;
+}
+
+.testimonials h2 span{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.testimonials h3{
+    text-align: center;
+    font-weight: 200;
+    font-size: 18px;
+    padding: 50px 0;
+}
+
+.testimonials p{
+    text-align: left;
+    width: 420px;
+}
+
+.testimonials .testlist ul{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+
+.testimonials .testlist ul li{
+    background-color: #f7f5eb;
+    padding: 50px 50px;
+    border-radius: 5px;
+}
+
+.testimonials .container .review ul{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 50px 0;
+
+}
+
+.review ul li span{
+    color: #b1824a;
+}
+
+.more{
+    padding-left: 47%;
+}
+
+.footer{
+    background: url(../images/footer.png) no-repeat 100% 10% #fff;
+    position: relative;
+    height: 800px;
+    width: 100%;
+    color: #fff;
+}
+.footer .container{
+    position: absolute;
+    padding-top: 250px;
+    padding-left: 130px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+
+.footer h2{
+    color: #fff;
+    font-size: 32px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.footer h2 span{
+
+}
+
+.footer li{
+    text-decoration: none;
+}
+
+.footer a{
+    text-decoration: none;
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
